@@ -1,0 +1,548 @@
+Quddusbek, [15/12/2023 02:20]
+* {
+    padding: 0px;
+    /* margin: 0px; */
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+/* Container */
+.container {
+    max-width: 1440px;
+    /* height: 3659px; */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px 120px 0px 120px;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px 17.7px 0px;
+}
+
+header>.header-items {
+    display: flex;
+    gap: 50px;
+}
+
+header>.header-items>a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header>.btn-part {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header>.btn-part>svg,
+header>.btn-part>img {
+    cursor: pointer;
+}
+
+header>.btn-part>button {
+    width: 100px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    border: none;
+    cursor: pointer;
+}
+header>.btn-part>button>a{
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+/* main */
+main {
+    display: flex;
+    /* height: 450px; */
+    flex-shrink: 0;
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+    justify-content: right;
+}
+
+main>.first {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+    padding: 50px 0px;
+}
+
+main>.first>.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main>.first>.content>h5 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+
+main>.first>.content>h1 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    width: 650px;
+}
+
+main>.first>.content>h1>span {
+    color: #46A358;
+    font-family: sans-serif;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+}
+
+main>.first>.content>p {
+    width: 557px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #727272;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+main>.first>.main-btn>button {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+/* second */
+/* main>.second{
+    border: 1px solid greenyellow;
+}
+main>.second>img {
+    border: 1px solid red;
+} */
+
+/* Section-2 */
+.section-2 {
+    margin-top: 46px;
+    display: flex;
+    gap: 50px;
+}
+
+/* aside */
+.section-2>aside {
+    background: #FBFBFB;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    overflow: hidden;
+}
+
+.section-2>aside>.first {
+    display: block;
+}
+
+.section-2>aside>.first>h2 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 88.889% */
+    padding-left: 18px;
+    padding-top: 14px;
+}
+
+.section-2>aside>.first>a {
+    display: block;
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 30px;
+}
+
+.section-2>aside>.second>h2 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 88.889% */
+    padding-left: 18px;
+}
+
+.section-2>aside>.second>input {
+    margin-left: 30px;
+    width: 161px;
+    height: 4px;
+    background: #46A358;
+}
+
+Quddusbek, [15/12/2023 02:20]
+.section-2>aside>.second>p {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 106.667% */
+    padding-left: 30px;
+}
+
+.section-2>aside>.second>p>span {
+    color: #46A358;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.section-2>aside>.second>button {
+    width: 90px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 125% */
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.section-2>aside>.third>h2 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 88.889% */
+    padding-left: 18px;
+}
+
+.section-2>aside>.third>a {
+    text-decoration: none;
+    display: block;
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 266.667% */
+    padding-left: 30px;
+}
+
+.section-2>aside>.fourth {
+    display: flex;
+    justify-content: center;
+}
+
+/* article */
+.section-2>article {
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+.section-2>article>nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 23px;
+    flex-shrink: 0;
+}
+
+.section-2>article>nav>.nav-items {
+    display: flex;
+    gap: 37px;
+}
+
+.section-2>article>nav>.nav-items>a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.section-2>article>nav>.right-items>p {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.section-2>article>nav>.right-items>p>select {
+    border: none;
+}
+
+.section-2>article>nav>.right-items>p>select>option {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+
+.section-2>article>nav>.right-items {
+    display: flex;
+    gap: 8px;
+}
+
+/* cards */
+.section-2>article>.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 258px);
+    gap: 33px;
+}
+
+.section-2>article>.cards>div {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2>article>.cards>div>div:first-child {
+    background-color: #fbfbfb;
+    width: 258px;
+    /* height: 300px; */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2>article>.cards>div>div:first-child>img {
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: multiply;
+}
+
+.section-2>article>.cards>div>div:last-child>p:first-child {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.section-2>article>.cards>div>div:last-child>p:last-child {
+    color: #46A358;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+/* Section-3 */
+.section-3 {
+    margin-top: 146px;
+    display: flex;
+    gap: 28px;
+}
+
+.section-3>.first {
+    width: 586px;
+    height: 250px;
+    flex-shrink: 0;
+    background: #FBFBFB;
+    display: flex;
+}
+
+.section-3>.first>img {
+    background: lightgray 50% / cover no-repeat;
+    mix-blend-mode: multiply;
+}
+
+.section-3>.first>div>h3 {
+    color: #3D3D3D;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 24px;
+    /* 133.333% */
+    text-transform: uppercase;
+    width: 180px;
+}
+
+Quddusbek, [15/12/2023 02:20]
+.section-3>.first>div>p {
+    width: 292px;
+    height: 45px;
+    flex-shrink: 0;
+    color: #727272;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-3>.first>div {
+    direction: rtl;
+    padding: 27px 30px 0px 0px;
+}
+
+.section-3>.first>div>div {
+    margin-top: 30px;
+}
+
+.section-3>.first>div>div>button {
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #46A358;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* Section-4 */
+.section-4 {
+    margin-top: 138px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.section-4>.top>h1 {
+    color: #3D3D3D;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.section-4>.top>p {
+    /* width: 557px; */
+    height: 19px;
+    flex-shrink: 0;
+    color: #727272;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.section-4>.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 268px);
+    gap: 44px;
+}
+
+.section-4>.wrapper>div {
+    height: 362px;
+    background: #FBFBFB;
+}
+.section-4>.wrapper>div>.img>img{
+    width: 100%;
+}
+
+.section-4>.wrapper>div>.text {}
+
+.section-4>.wrapper>div>.text>h6 {
+    color: #46A358;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.section-4>.wrapper>div>.text>h4 {
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.section-4>.wrapper>div>.text>p {
+    width: 242px;
+    height: 44px;
+    flex-shrink: 0;
+    color: #727272;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.section-4>.wrapper>div>.text>a {
+    text-decoration: none;
+    color: #3D3D3D;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+/* Footer */
+footer {}
